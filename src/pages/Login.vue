@@ -76,7 +76,7 @@ const state = ref({
   apiKey: '',
   node: {
     host: 'typesense.printo.in',
-    port: '',
+    port: 443,
     protocol: 'https',
     path: '/v1/',
     tls: true,
