@@ -75,10 +75,10 @@ onMounted(() => {
 const state = ref({
   apiKey: '',
   node: {
-    host: 'localhost',
-    port: 8108,
-    protocol: 'http',
-    path: '',
+    host: 'typesense.printo.in',
+    port: '',
+    protocol: 'https',
+    path: '/v1/',
     tls: true,
   },
   protocolOptions: ['http', 'https'],
